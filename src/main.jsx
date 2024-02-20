@@ -7,7 +7,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { CatgoriesContextProvider } from './Component/Context/CatgoriesContext.jsx'
 import { ProductsContextProvider } from './Component/Context/ProductsContext.jsx'
-import { CartContextProvider } from './Component/Context/CartContext.jsx'
+import { CartContextProvider } from './Component/Context/CartContext.jsx' //
 import { ProfileContextProvider } from './Component/Context/ProfileContext.jsx'
 import { UserOrderContextProvider } from './Component/Context/OrderContext.jsx'
 

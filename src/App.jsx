@@ -19,7 +19,7 @@ import Checkout from './Component/Checkout/Checkout';
 import ProtectRouting from './Component/ProtectRouting/ProtectRouting';
 import PageNotFound from './Component/PageNotFound/PageNotFound';
 import ForgetPassword from './Component/Register/ForgetPassword';
-import RestPassword from './Component/Register/restPassword';
+import RestPassword from './Component/Register/RestPassword';  //
 
 
 export default function App() {
