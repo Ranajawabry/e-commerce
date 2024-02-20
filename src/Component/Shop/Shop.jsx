@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { CatgoriesContext } from '../Context/CatgoriesContext'
 import axios from "axios";
 import { useFormik } from 'formik'
-import { CartContext } from '../Context/CartContext.Jsx';
+import { CartContext } from '../Context/CartContext.jsx';
 import { Link } from 'react-router-dom';
 import Loading from '../loading/loading';
 import PageNavLink from '../PageNavLink/PageNavLink';
