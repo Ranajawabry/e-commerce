@@ -4,7 +4,7 @@ import { useQuery } from 'react-query';
 import axios from "axios";
 import { CartContext } from '../Context/CartContext.jsx'; 
 import { useContext } from 'react'
-import Loading from '../Loading/Loading';
+import Loading from '../Loading/Loading.jsx';
 import PageNavLink from '../PageNavLink/PageNavLink';
 
 export default function ProductInCategories() {
