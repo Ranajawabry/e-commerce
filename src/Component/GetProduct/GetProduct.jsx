@@ -3,10 +3,13 @@ import { Link, useParams } from 'react-router-dom'
 import { useQuery } from 'react-query';
 import axios from "axios";
 import "./GetProduct.css";
-import Loading from '../loading/Loading';
+
 import { CartContext } from '../Context/CartContext.jsx';//
 import GetReviews from './GetReviews';
 import PageNavLink from '../PageNavLink/PageNavLink';
+import Loading from '../Loading/Loading.jsx';
+
+
 
 export default function GetProduct() {
 
@@ -27,7 +30,7 @@ export default function GetProduct() {
     //  Set Prodect Detiles is Cash Browser =>
     const { data, isLoading } = useQuery("api_Prodect", getProduct)
     if (isLoading) {
-        <Loading />
+       <Loading />
     }
     // Add Prodect to Cart Function =>
     const addToCart = async (productId) => {
