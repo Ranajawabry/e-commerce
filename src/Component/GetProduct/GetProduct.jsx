@@ -2,9 +2,9 @@ import React, { useContext, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from 'react-query';
 import axios from "axios";
-import "./GetProduct.css"
-import Loading from '../loading/loading';
-import { CartContext } from '../Context/CartContext.Jsx';
+import "./GetProduct.css";
+import Loading from '../loading/Loading';
+import { CartContext } from '../Context/CartContext.jsx';//
 import GetReviews from './GetReviews';
 import PageNavLink from '../PageNavLink/PageNavLink';
 
