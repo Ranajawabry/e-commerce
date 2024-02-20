@@ -5,7 +5,7 @@ import axios from "axios";
 import { useFormik } from 'formik'
 import { CartContext } from '../Context/CartContext.jsx';
 import { Link } from 'react-router-dom';
-import Loading from '../loading/loading';
+import Loading from '../Loading/Loading';
 import PageNavLink from '../PageNavLink/PageNavLink';
 
 export default function Shop() {

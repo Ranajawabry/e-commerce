@@ -3,7 +3,7 @@ import { CartContext } from '../Context/CartContext.Jsx'
 import axios from "axios";
 import { toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
-import Loading from '../loading/Loading';
+import Loading from '../Loading/Loading';
 
 export default function Cart() {
     // define variable =>

@@ -7,7 +7,7 @@ import "./GetProduct.css";
 import { CartContext } from '../Context/CartContext.jsx';//
 import GetReviews from './GetReviews';
 import PageNavLink from '../PageNavLink/PageNavLink';
-import Loading from '../loading/loading.jsx';
+import Loading from '../Loading/Loading.jsx';
 
 
 

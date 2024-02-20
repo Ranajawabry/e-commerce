@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ProfileContext } from '../Context/ProfileContext';
-import Loading from '../loading/Loading';
+import Loading from '../Loading/Loading';
 
 export default function Profile() {
 
